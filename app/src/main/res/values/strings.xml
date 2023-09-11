@@ -1,0 +1,258 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GamingPhoneList</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="description">Description</string>
+    <string name="photo_description">Gaming Phone</string>
+    <string name="user_dicoding_name">Masyura Fanni Ramadhan</string>
+    <string name="user_dicoding_email" tools:ignore="Typos">masyurafanni1@gmail.com</string>
+    <string name="dicoding_click">Click here to view profile on Dicoding</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="os_version">OS Version</string>
+    <string name="layar">Layar</string>
+    <string name="screen">Screen</string>
+    <string name="ram">RAM</string>
+    <string name="processor">Processor</string>
+    <string name="rom">ROM</string>
+    <string name="kamera_belakang">Kamera Belakang</string>
+    <string name="kamera_utana_lainnya">Kamera Utanma Lainnya</string>
+    <string name="kamera_depan">Kamera Depan</string>
+    <string name="nfc">NFC</string>
+    <string name="baterai">Baterai</string>
+    <string name="usb">USB</string>
+    <string name="detail">Detail</string>
+    <string name="share">Share this content</string>
+    <string name="grid_view">Grid View</string>
+    <string name="logout">Logout</string>
+    <string name="list_view">List View</string>
+    <string name="about_page">About Page</string>
+
+    <!-- Database -->
+    <!-- ROG 7 Ultimate, ROG 7, ROG 6 Pro, Galaxy 23, Vivo x80, iQoo, POCO F4, Black Shark 4 Pro, Realme GT 2 Pro ,Xiaomi 12 -->
+    <string-array name="data_phoneName">
+        <item>ASUS ROG Phone 7 Ultimate</item>
+        <item>ASUS ROG Phone 7</item>
+        <item>ASUS ROG Phone 6 Pro</item>
+        <item>SAMSUNG Galaxy S23 Ultra 5G</item>
+        <item>Vivo X80 Pro</item>
+        <item>iQOO 11</item>
+        <item>POCO F4 GT</item>
+        <item>Xiaomi Black Shark 4 Pro</item>
+        <item>Realme GT 2 Pro</item>
+        <item>Xiaomi 12</item>
+    </string-array>
+    <string-array name="data_varian">
+        <item>Varian 16 GB / 512 GB</item>
+        <item>Varian 8/12 GB &amp; 256 GB</item>
+        <item>Varian 18 GB / 512 GB</item>
+        <item>Varian 12 GB &amp; 256 GB/512 GB/1 TB</item>
+        <item>Varian 12 GB/256 GB</item>
+        <item>Varian 16 GB(Bisa tambah 8 GB) / 256 GB</item>
+        <item>Varian 12 GB/256 GB</item>
+        <item>Varian 8/16 GB &amp; 25d/512 GB</item>
+        <item>Varian 12 GB/256 GB</item>
+        <item>Varian 8 GB/256 GB</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>
+            HP ASUS yang ini ditenagai prosesor Snapdragon 8 Gen 2. Bedanya versi Ultimate memasang konfigurasi memori RAM 16 GB dan penyimpanan internal 512 GB. Yang juga membedakan adalah tampilan matriks ROG Vision yang unik di bagian belakang dan sistem pendingin GameCool 7 yang ditingkatkan dengan AeroActive Portal yang inovatif. Pendinginan di versi ini juga ditingkatkan lebih jauh lagi dengan AeroActive Portal, dimana saat Portal AeroActive diaktifkan, efisiensi termal hp dapat meningkat hingga 20%. Layarnya masih menggunakan panel AMOLED dengan refresh rate 165 Hz. ROG Phone 7 Ultimate yang dibundling Aero Active Cooler. Harganya sekitar Rp 19.199.000
+        </item>
+        <item>
+            Kekuatan gaming pada hp ASUS terbaru ini ada pada prosesor Snapdragon 8 Gen 2 yang sangat mumpuni untuk melibas semua game berat sekalipun. Apalagi sudah dipadukan dengan memori RAM 8 GB dan 12 GB (LPDDR5X 8533 Mbps) serta penyimpanan internal sebesar 256 GB yang memungkinkan untuk menampung banyak game.
+            Dukungan untuk gaming juga didapat dari teknologi Snapdragon Elite Gaming serta manajer kinerja Armoury Crate yang memberi kontrol terbaik atas pengaturan kinerja dan penyetelan. Bermain pun terasa asik dengan layar AMOLED yang sudah mendukung refresh rate 165Hz serta keberadaan tombol haptic AirTrigger yang dapat disesuaikan.
+            Jangan khawatir tidak nyaman karena panas berlebih, karena ROG Phone 7 memasang sistem pendingin GameCool 7 dengan AeroActive Portal untuk mendinginkan CPU dari segala arah. Termasuk menampilkan matriks ROG Vision yang unik di bagian belakang yang inovatif. Belum termasuk beragam fitur canggih lainnya.
+            Harga ASUS ROG Phone 7 sendiri adalah Rp 10.999.000 untuk varian 8 GB/256 GB, serta Rp13,999,000 untuk varian 12 GB/256 GB.
+        </item>
+        <item>
+            Secara spesifikasi, ROG Phone 6 Pro Layarnya menggunakan panel AMOLED berukuran 6,78 inci, resolusi Full HD Plus (2.448 x 1.080 pixel), tingkat refresh rate yang mencapai hingga 165 Hz dengan touch sampling rate mencapai 720 Hz. Serunya refresh rate ini dapat diatur secara manual mulai dari 60 Hz, 90 Hz, 120 Hz, 144 Hz, dan 165 Hz.
+            Layar ini pun juga sudah mendapatkan pelindung Corning Gorilla Glass Victus. Yang akan membuat perangkat tahan dari goresan. Performanya turut mengandalkan pada chipset Snapdragon 8 Plus Gen 1. ROG Phone 6 Pro hanya memiliki satu varian yaitu memori RAM 18 GB dan penyimpanan internal 512 GB. Pastinya sangat mumpuni untuk mendukung gaming hingga menjalankan banyak aplikasi secara bersamaan.
+            Baterainya juga berkapasitas 6.000 mAh yang mendukung pengisian daya cepat berdaya 65 watt. Untuk fitur lainnya ada tombol AirTrigger, spaker ganda, tiga mikrofon, audio spasial Dirac Virtuo, colokan audio 3,5 mm dan sudah mendapat sertifikasi IP rating IPX4. Harganya Rp. 19.999.000
+        </item>
+        <item>
+            Samsung Galaxy S23 Ultra 5G ini merupakan seri Galaxy A23 series yang memiliki processor Snapdragon 8 Gen 2 untu bisa memainkan semua game, termasuk game grafis tinggi. Chipset ini di sokong RAM 12 GB dan memori internal 256 GB, 512 GB dan 1 TB.
+            Dari sisi layar lebih bagus lagi dengan panel Dynamic AMOLED 2X berukuran  resolusi Quad HD Plus, refresh rate 120 Hz, kecerahan 1.750 nit, serta dilindungi kaca Gorilla Glass Victus 2. Selama bermain game, baterai 5,000 mAh akan menemani selama berjam-jam serta sudah memiliki teknologi pengisian cepat hingga 45W dan 15W (wireless). Harganya Rp. 19.200.000
+        </item>
+        <item>
+            Vivo X80 Pro juga bisa dijadikan pilihan untuk yang mencari hp gaming terbaik. Performanya saja ditenagai prosesor Snapdragon 8 Gen 1 yang di sokong memori RAM 12 GB dan penyimpanan internal 256 GB. Yang pasti sangat tangguh untuk melibas game-game berat yang ada saat ini. Main makin enak dengan layar LTPO 3.0 AMOLED berukuran 6,78 inci dengan resolusi WQHD+ (1440 x 3200p) serta refresh rate 120 Hz.
+            Yang tak kalah menarik adalah keberadaan kamera utama Ultra-Sensing GNV 50MP, kamera ultrawide 48 MP, kamera gimbal portrait 12 MP dan kamera periskop 8 MP. Lalu kamera depan beresolusi 32 MP. Dari sisi baterai sudah berkapasitas 4.700mAh dengan dukungan 80W Flash Charge dan 50W Wireless FlashCharge. Harganya Rp. 8.000.000
+        </item>
+        <item>
+            iQOO 11 yang menawarkan spesifikasi gaming kelas atas. Performanya yang menggunakan prosesor Snapdragon 8 Gen 2 dan di sokong RAM 16 GB dengan fitur Extended RAM yang bisa menambah RAM hingga 8 GB (totalnya menjadi 24 GB). Main game berat juga tambah seru dengan layar berukuran 6.78 inci beresolusi WQHD+ 3200 x 1440 pixel serta menambahkan teknologi cahaya E6 dan mendukung refresh rate 144Hz.
+            iQOO 11 juga dibekali tiga kamera yang memiliki konfigurasi 50 MP, 13 MP dan 8 MP serta kamera depan 16 MP. Sebagai sumber tenaga, baterai 5000 mAh yang dimilikinya sudah mendukung flash charging 120W. Harganya Rp. 10.999.000
+        </item>
+        <item>
+            POCO F4 GT bisa menjadi pilihan hp gaming terbaik berikutnya. Berbekal prosesor Snapdragon 8 Gen 1 dengan RAM 12 GB dan penyimpanan internal 256 GB menjanjikan salah satu yang tercepat di kelasnya. Apalagi dukungan layar AMOLED berukuran 6,67 inchi yang sudah mendukung refresh rate 120Hz menjamin -game-game berat akan sangat mulus untuk dimainkan.
+            POCO F4 GT juga dibekali baterai 4700 mAh dengan dukungan teknologi fast charging HyperCharge berdaya 120W. Teknologi ini diklaim mampu mengisi penuh baterai dalam hitungan menit. Harganya Rp. 7.300.000
+        </item>
+        <item>
+            Sebagai hp gaming terbaik, Black Shark 4 Pro tentu dibekali komponen yang sangat bertenaga. Untuk performa gaming ditenagai prosesor Snapdragon 888 yang sudah mendukung jaringan 5G. Untuk menambah kinerja, disediakan kapasitas memori RAM yang bervariasi, mulai dari RAM 8 GB LPDDR5 hingga 16 GB dan ruang penyimpanan internal sebesar 256 GB dan 512 GB berjenis UFS3.1. Diklaim
+            Pengguna juga tidak perlu khawatir perangkat panas, karena ada “Sandwich” Liquid Cooling 2.0 yang dapat menjaga komponen-komponen utama lebih dingin. Black Shark 4 Pro hadir dengan layar AMOLED berukuran 6.67 inci, menawarkan refresh rate 144Hz (720Hz touch screen reporting rate), HDR 10+ dan DC dimming 4.0. Ada juga speaker stereo simetris DTS yang menghadap ke depan untuk suara yang seimbang.
+            Hp gaming ini turut dibekali baterai dual cell 4500 mAh lengkap bersama pilihan charger 120W Hyper Charge. Teknologi pengisian cepat ini diklaim dapat mengisi ulang baterai 100% hanya dalam waktu 15 menit saja. Harganya Rp. 9.246.000 – Rp. 15.690.000
+        </item>
+        <item>
+            Realme GT 2 Pro yang resmi hadir di Indonesia pada akhir Maret 2022. Selain kinerja baik dari prosesor Snapdragon 8 Gen 1, pengalaman gaming terasa lancar  dengan layar 2K Super Reality. Hp realme ini dibekali dengan layar AMOLED berukuran 6.7 inci dengan desain kamera depan punch hole yang terletak pada sudut kiri atas layar.
+            Performa dan kinerjanya didukung oleh baterai berkapasitas 5000 mAh yang sudah mendukung pengisian daya cepat 65W yang diklaim dapat mengisi daya secara penuh hanya dalam waktu 33 menit saja. Juga ada tiga kamera dengan konfigurasi kamera wide 50 MP, kamera ultrawide 50 MP, serta kamera mikroskop 3 MP. Lalu ada kamera selfie yang mengusung resolusi 32 MP. Harganya Rp. 9.199.000
+        </item>
+        <item>
+            Xiaomi 12 ditenagai prosesor Snapdragon 8 Gen 1 yang menjadi chipset terkuat saat ini. Wajar bila hp Xiaomi terbaru ini layak dilirik menjadi perangkat untuk para gamer. Varian ini mengusung RAM 8 GB dengan kapasitas penyimpanan internal 256 GB, sistem operasi MIUI 13 berbasis Android 12, serta teknologi audio Dolby Atmos dengan speaker ganda.
+            Main game pun akan terasa mulus dan responsif melalui layar Super AMOLED berukuran 6,28 inci dan sudah memiliki refresh rate hingga 120 Hz. Kebutuhan dayanya ditopang oleh baterai 4500 mAh yang sudah mendukung pengisian daya turbo 67W menggunakan kabel charger, dan 50W dengan pengisian secara nirkabel. Xiaomi 12 juga dapat mengisi daya perangkat lain dengan reverse charging nirkabel 10W. Harganya Rp. 7.000.000 – Rp. 10.000.000
+        </item>
+    </string-array>
+    <string-array name="data_phoneImg">
+        <item tools:ignore="Typos">https://cdn1-production-images-kly.akamaized.net/_UkOgMoydhksywaFvqhKpRaPvts=/141x0:873x732/1200x1200/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4506977/original/098147600_1689734819-h732__2_.jpg</item>
+        <item>https://fdn2.mobgsm.com/vv/pics/asus/asus-rog-phone-7-ultimate-1.jpg</item>
+        <item>https://images.fonearena.com/blog/wp-content/uploads/2022/07/ASUS-ROG-Phone-6-Pro-1024x959.jpg</item>
+        <item tools:ignore="Typos">https://cdn.eraspace.com/media/catalog/product/g/a/galaxy_s23_ultra_5g_phantom_black_1_4.jpg</item>
+        <item>https://cdn.eraspace.com/media/catalog/product/v/i/vivo_x80_pro_cosmic_black_1.jpg</item>
+        <item>https://asia-exshopstatic-vivofs.vivo.com/KuCZNhz3cVxH4yrP/id/1673519665337/70f0b4eddf1dfb3953b1ce29e82dc2b9.jpg_w860-h860.webp</item>
+        <item tools:ignore="TypographyDashes">https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//105/MTA-54774707/xiaomi_poco_f4_gt_12-256gb__full01_uxl7g7qm.jpg</item>
+        <item>https://asset.kompas.com/crops/M3n2AAnPsDsbJfvWEnQgBEzTQSE=/161x0:1976x1210/750x500/data/photo/2021/03/24/605a835529706.jpg</item>
+        <item>https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/03/25/770362117.jpg</item>
+        <item>https://cdn.eraspace.com/media/catalog/product/x/i/xiaomi_12_pro_purple_1.jpg</item>
+    </string-array>
+    <string-array name="data_osVersion">
+        <item>Android 13</item>
+        <item>Android 13</item>
+        <item>Android 12</item>
+        <item>Android 13</item>
+        <item>Android 12</item>
+        <item>Android 13</item>
+        <item>Android 11</item>
+        <item>Android 11</item>
+        <item>Android 12</item>
+        <item>Android 12</item>
+    </string-array>
+    <string-array name="data_layar">
+        <item>6.78 inch</item>
+        <item>6.78 inch</item>
+        <item>6.78 inch</item>
+        <item>6.8 inch</item>
+        <item>6.78 inch</item>
+        <item>6.78 inch</item>
+        <item>6.67 inch</item>
+        <item>6.67 inch</item>
+        <item>6.7 inch</item>
+        <item>6.28 inch</item>
+    </string-array>
+    <string-array name="data_screen">
+        <item>1080 x 2448 Pixel</item>
+        <item>1080 x 2448 Pixel</item>
+        <item>1080 x 2448 Pixel</item>
+        <item>1440 x 3088 Pixel</item>
+        <item>1440 x 3200 Pixel</item>
+        <item>1440 x 3200 Pixel</item>
+        <item>2400 x 1080 Pixel</item>
+        <item>1080 x 2400 Pixel</item>
+        <item>1440 x 3216 Pixel</item>
+        <item>2400 x 1080 Pixel</item>
+    </string-array>
+    <string-array name="data_processor">
+        <item>Snapdragon 8 Gen 2</item>
+        <item>Snapdragon 8 Gen 2</item>
+        <item>SM8475 Snapdragon 8+ Gen 1 (4 nm)</item>
+        <item>SM8550-AC Snapdragon 8 Gen 2 (4 nm)</item>
+        <item>SM8450 Snapdragon 8 Gen 1 (4 nm)</item>
+        <item>SM8550 Snapdragon 8 Gen 2 (4 nm)</item>
+        <item>SM8350 Snapdragon 888</item>
+        <item>SM8350 Snapdragon 888 5G (5 nm)</item>
+        <item>SM8450 Snapdragon 8 Gen 1 (4 nm)</item>
+        <item>SM8450 Snapdragon 8 Gen 1</item>
+    </string-array>
+    <string-array name="data_ram">
+        <item>12 GB</item>
+        <item>16 GB</item>
+        <item>18 GB</item>
+        <item>12 GB</item>
+        <item>12 GB</item>
+        <item>16 GB</item>
+        <item>16 GB</item>
+        <item>8/12/16 GB</item>
+        <item>12 GB</item>
+        <item>8 GB</item>
+    </string-array>
+    <string-array name="data_rom">
+        <item>256 GB</item>
+        <item>512 GB</item>
+        <item>512 GB</item>
+        <item>256 GB</item>
+        <item>256 GB</item>
+        <item>256 GB</item>
+        <item>512 GB</item>
+        <item>256/512 GB</item>
+        <item>256 GB</item>
+        <item>256 GB</item>
+    </string-array>
+    <string-array name="data_kameraBelakang">
+        <item>50 MP</item>
+        <item>50 MP</item>
+        <item>50 MP</item>
+        <item>200 MP</item>
+        <item>50 MP</item>
+        <item>50 MP</item>
+        <item>64 MP</item>
+        <item>64 MP</item>
+        <item>50 MP</item>
+        <item>50 MP</item>
+    </string-array>
+    <string-array name="data_kameraUtamaLn">
+        <item>13, 5 MP</item>
+        <item>13, 5 MP</item>
+        <item>13 MP</item>
+        <item>10, 10, 12 MP</item>
+        <item>8 MP</item>
+        <item>13, 8 MP</item>
+        <item>8, 5 MP</item>
+        <item>8, 5 MP</item>
+        <item>50, 3 MP</item>
+        <item>12, 5 MP</item>
+    </string-array>
+    <string-array name="data_kameraDepan">
+        <item>32 MP</item>
+        <item>32 MP</item>
+        <item>12 MP</item>
+        <item>12 MP</item>
+        <item>32 MP</item>
+        <item>16 MP</item>
+        <item>20 MP</item>
+        <item>20 MP</item>
+        <item>32 MP</item>
+        <item>32 MP</item>
+    </string-array>
+    <integer-array name="data_nfc">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="data_usb">
+        <item>Type-C, USB OTG</item>
+        <item>Type-C, USB OTG</item>
+        <item>Type-C, USB OTG</item>
+        <item>Type-C, USB OTG</item>
+        <item>Type-C, USB OTG</item>
+        <item>Type-C, USB OTG</item>
+        <item>Type-C</item>
+        <item>Type-C</item>
+        <item>Type-C, USB OTG</item>
+        <item>Type-C</item>
+    </string-array>
+    <string-array name="data_baterai">
+        <item>6000 mAh</item>
+        <item>6000 mAh</item>
+        <item>6000 mAh</item>
+        <item>5000 mAh</item>
+        <item>4700 mAh</item>
+        <item>5000 mAh</item>
+        <item>4500 mAh</item>
+        <item>4500 mAh</item>
+        <item>5000 mAh</item>
+        <item>4500 mAh</item>
+    </string-array>
+
+</resources>

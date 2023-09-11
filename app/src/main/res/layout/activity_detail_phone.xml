@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPhoneActivity"
+    android:fillViewport="true"
+    android:background="@color/md_theme_light_inverseOnSurface">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:id="@+id/iv_phoneDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/photo_description" />
+
+        <TextView
+            android:id="@+id/txt_titleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:layout_marginTop="16dp"
+            android:text="@string/title"
+            app:layout_constraintEnd_toEndOf="@+id/iv_phoneDetail"
+            app:layout_constraintStart_toStartOf="@+id/iv_phoneDetail"
+            app:layout_constraintTop_toBottomOf="@+id/iv_phoneDetail" />
+
+        <TextView
+            android:id="@+id/txt_descriptionDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingMultiplier="1.5"
+            android:text="@string/description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_titleDetail" />
+
+        <TextView
+            android:id="@+id/txt_spesifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:layout_marginTop="16dp"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_descriptionDetail" />
+
+        <TextView
+            android:id="@+id/txt_spek1"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/os_version"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_spesifikasi" />
+
+        <TextView
+            android:id="@+id/txt_os_version"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/txt_spek1"
+            app:layout_constraintTop_toBottomOf="@+id/txt_spesifikasi" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/layar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_spek1" />
+
+        <TextView
+            android:id="@+id/txt_layar"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/txt_spek1" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/screen"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/txt_screen"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/processor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_screen" />
+
+        <TextView
+            android:id="@+id/txt_processor"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/txt_screen" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/ram"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_processor" />
+
+        <TextView
+            android:id="@+id/txt_ram"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/txt_processor" />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/rom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_ram" />
+
+        <TextView
+            android:id="@+id/txt_rom"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/txt_ram" />
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/kamera_belakang"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_rom" />
+
+        <TextView
+            android:id="@+id/txt_kamera_belakang"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/txt_rom" />
+
+        <TextView
+            android:id="@+id/textView20"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/kamera_utana_lainnya"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/txt_kamera_utama_ln"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView21"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/kamera_depan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/txt_kamera_depan"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView23"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/nfc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/txt_nfc"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView25"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/usb"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/txt_usb"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/txt_nfc" />
+
+        <TextView
+            android:id="@+id/textView27"
+            style="@style/txtSpekStyle.MeniumBold"
+            android:text="@string/baterai"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/txt_baterai"
+            style="@style/txtSpekStyle"
+            android:text="@string/spesifikasi"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_share_action"
+            android:padding="16dp"
+            android:text="@string/share"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_share"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
